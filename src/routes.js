@@ -32,7 +32,6 @@ const addSchema = Joi.object({
         "Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount",
       ),
     ),
-  summary: Joi.string().required(),
   reading: Joi.boolean().required(),
 });
 
